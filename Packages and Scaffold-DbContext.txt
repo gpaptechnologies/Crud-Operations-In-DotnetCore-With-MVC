@@ -1,0 +1,5 @@
+Install-Package Microsoft.EntityFrameworkCore.SqlServer  
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+Scaffold-DbContext "Server=MYPC\SQLDEMO;Database=DEMO1;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
